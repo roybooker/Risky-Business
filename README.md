@@ -9,6 +9,7 @@
 ## Technologies
 
 This notebook leverages Python 3.8 with the following packages in a Jupyter Notebook:
+```python
 import numpy as np
 import pandas as pd
 from pathlib import Path
@@ -21,6 +22,7 @@ from imblearn.ensemble import BalancedRandomForestClassifier
 from imblearn.ensemble import EasyEnsembleClassifier
 import warnings
 warnings.simplefilter(action='ignore', category=Warning)
+```
 
 ## Installation Guide
 
