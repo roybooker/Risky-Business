@@ -56,7 +56,7 @@ Which model had the best geometric mean score?
 
 Combination (Over and Under) Sampling using SMOTEEN algorithm to resample had the geometric mean score of 1.00 for high and low risk.
 
-# Ensemble Learning#
+# Ensemble Learning #
 
 Which model had the best balanced accuracy score?
 
