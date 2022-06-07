@@ -1,12 +1,8 @@
 # Unit-11---Risky-Business
 
-# Homework_10_A_Yen_for_the_Future
+### Mortgages, student and auto loans, and debt consolidation are just a few examples of credit and loans that people seek online. Peer-to-peer lending services such as Loans Canada and Mogo let investors loan people money without using a bank. However, because investors always want to mitigate risk, a client has asked that you help them predict credit risk with machine learning techniques.
 
-
-
-## Mortgages, student and auto loans, and debt consolidation are just a few examples of credit and loans that people seek online. Peer-to-peer lending services such as Loans Canada and Mogo let investors loan people money without using a bank. However, because investors always want to mitigate risk, a client has asked that you help them predict credit risk with machine learning techniques.
-
-## In this assignment you will build and evaluate several machine learning models to predict credit risk using data you'd typically see from peer-to-peer lending services. Credit risk is an inherently imbalanced classification problem (the number of good loans is much larger than the number of at-risk loans), so you will need to employ different techniques for training and evaluating models with imbalanced classes. You will use the imbalanced-learn and Scikit-learn libraries to build and evaluate models using the two following techniques: ##
+### I have used machine learning models to predict credit risk using data you'd typically see from peer-to-peer lending services. Credit risk is an inherently imbalanced classification problem, so I have employed different techniques for training and evaluating models with imbalanced classes. I have applied imbalanced-learn and Scikit-learn libraries to build and evaluate models using the Resampling ##
 
 --------
 
@@ -38,11 +34,9 @@ pip install imblearn
 
 ```
 
----
-
 ## Observations
 
-# Resampling #
+### Resampling ###
 
 Which model had the best balanced accuracy score? 
 
@@ -56,7 +50,7 @@ Which model had the best geometric mean score?
 
 Combination (Over and Under) Sampling using SMOTEEN algorithm to resample had the geometric mean score of 1.00 for high and low risk.
 
-# Ensemble Learning #
+### Ensemble Learning ###
 
 Which model had the best balanced accuracy score?
 
@@ -77,15 +71,15 @@ What are the top three features?
 'total_rec_prncp', 'total_rec_int' and 'total_pymnt_inv' were the top three features.
 
 
-# Conclusions
+### Conclusions ###
 Combination (Over and Under) Sampling using SMOTEEN algorithm performed best for resampling the data, while Easy Ensemble Classifier worked best for ensemble learning of the data.
 
-## Contributors
+## Contributors##
 
 By: Roy Booker
 
 ---
 
-## License
+## License ##
 
 MIT
